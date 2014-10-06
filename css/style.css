@@ -1,0 +1,388 @@
+@font-face {
+    font-family:'bariol_regularregular';
+    src: url('../fonts/bariol_regular-webfont.eot');
+    src: url('../fonts/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bariol_regular-webfont.woff') format('woff'),
+         url('../fonts/bariol_regular-webfont.ttf') format('truetype'),
+         url('../fonts/bariol_regular-webfont.svg#bariol_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kobarapiregular';
+    src: url('../fonts/kobarapi-webfont.eot');
+    src: url('../fonts/kobarapi-webfont.eot?#iefix') format('embedded-opentype'),
+url('../fonts/kobarapi-webfont.woff2') format('woff2'),
+url('../fonts/kobarapi-webfont.woff') format('woff'),
+url('../fonts/kobarapi-webfont.ttf') format('truetype'),
+url('../fonts/kobarapi-webfont.svg#kobarapiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+    font-family:'bariol_regularregular';
+    margin: 0 auto;
+    padding: 0;
+}
+img {
+    border: 0 none;
+}
+* {border: 0 none;margin: 0 auto;padding: 0;outline: none;}
+h1, h2, h3, h4, h5 {
+    font-family:'bariol_regularregular';
+    margin: 0;
+    padding: 0;
+}
+.clr {
+}
+.clr:before, .clr:after {
+    content: "";
+    display: table;
+}
+.clr:after {
+    clear: both;
+}
+.expand {
+    width: 100%;
+}
+.container {
+	background-color:#ff9000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+.header {
+	width:100%;
+}
+.lock-up {
+	width: 100%;
+	/*padding: 50px 0 0;*/
+	margin: 0 auto;
+	background-color:#7eff00;
+}
+.logo-text {
+	font-family: 'kobarapiregular';
+	width: 100%;
+	text-align: center;
+	font-size: 5em;
+	color: #7eff00;
+	line-height: 1.2;
+	margin-top: -10px;
+	background-color:#ff9000;
+	padding-bottom: 60px;
+}
+.logo-text a {
+	font-family: 'kobarapiregular';
+	text-align: center;
+	font-size: 1em;
+	color: #7eff00;
+	text-decoration: none;
+}
+.menu {
+	width: 100%;
+}
+.menu-items {
+	width: 100%;
+	background-color: #f1f1f1;
+}
+.menu-items li {
+	width: 20%;
+	list-style: none;
+	float: left;
+}
+.menu-items li a {
+	display: block;
+	color: #7eff00;
+	text-align: center;
+	padding: 20px 0px 15px;
+	text-decoration: none;
+	font-family: 'kobarapiregular';
+	background: #f57f00;
+	margin-right: 1px;
+	font-size: 1.1em;
+}
+.menu-items li a:hover {
+	background: #ffba6f;
+}
+.menu-items li a.active {
+	background: #6d6d6d;
+}
+.intro-image {
+	width: 1124px;
+}
+.mobile-menu-icon {
+	display:none;
+	float:right;
+	width: 30px;
+	margin-right: 30px;
+	border: 1px solid #000;
+	padding: 5px;
+	cursor:pointer;
+	background: #7A7A7A;
+}
+.content-area {
+	width:1170px;
+	margin-top: 20px;
+}
+.section-one {
+	float:left;
+	width: 46%;
+}
+.section-two {
+	float:right;
+	width: 54%;
+}
+.text {
+	font-size:.9em;
+	color:#FFF;
+	line-height:25px;
+	text-align:left;
+	padding: 30px 0;
+}
+.building-starts {
+	width:100%;
+}
+.section-one-waste {
+	float:left;
+	width: 32%;
+}
+.section-two-waste {
+	float:right;
+	width: 68%;
+}
+.img-waste {
+	width: 100%;
+}
+.far-right {
+	width: 31%;
+	float:right;
+	margin-top: 43px;
+}
+.middle-text {
+	width:67%;
+	float:left;
+}
+.sports-text {
+	font-size:.9em;
+	color:#FFF;
+	line-height:25px;
+	text-align:left;
+	padding: 45px 30px;
+}
+.farming-row {
+	width:100%;
+}
+.farming-text {
+	float: left;
+	font-size:.9em;
+	color:#FFF;
+	line-height:25px;
+	text-align:left;
+	padding: 30px 15px;
+	width: 65%;
+	box-sizing: border-box;
+}
+.farming-image {
+	width: 35%;
+	float: right;
+}
+.farming-img-1 {
+	width: 34%;
+	float: left;
+}
+.farming-img-2 {
+	width: 30%;
+	float: left;
+}
+.farming-img-3 {
+	width: 36%;
+	float: left;
+}
+.farming-imge {
+	width: 52%;
+	float: left;
+	padding-left: 1%;
+}
+.farming-imge2 {
+	width: 47%;
+	float: left;
+}
+.span6{width:850px;margin-top: 2%;}
+h1 {color: #FFF; font-size: 1.3em;}
+.footer {
+	width:100%; 
+	padding:1% 0; 
+	/*background:#013c4d; */
+	margin-top:20px;
+}
+.footer-cont {
+	font-family:'bariol_regularregular';
+	text-align:center;
+	width:80%;
+	color:#FFF;
+	font-size:.9em;
+	font-weight:normal;
+}
+.footer-cont a {
+	text-decoration:none;
+	text-align:center;
+	padding:0 5%;
+	color:#FFF;
+}
+.footer-cont a:hover {
+	color:#B6B6B6;
+}
+.copyright {
+	float:right;
+	text-align:right;
+}
+
+/******** Media Queries begins here **************/
+@media screen and (max-width: 1169px) {
+	.content-area {
+		width: 100%;
+	}
+	.menu-items li a {
+		font-size:.9em;
+	}
+}
+@media screen and (max-width: 1123px) {
+	.intro-image {
+		width: 98%;
+	}
+	.footer-cont {
+		width:92%;
+	}
+	.text {
+		padding: 21px 0 0 20px;
+	}
+	.logo-text {
+		font-size: 3em;
+		padding-bottom: 30px;
+		margin-top: -33px;
+	}
+}
+@media screen and (max-width: 879px) {
+	.logo-text {
+		margin-top: -33px;
+	}
+	.menu-items li a {
+		font-size:.8em;
+	}
+	.logo-text {
+		font-size: 2em;
+	}
+	.span6 {
+		width: 98%;
+	}
+}
+@media screen and (max-width: 769px) {
+	.menu-items li {
+		float:none;
+		width:100%;
+		border-top:1px solid #FFF;
+	}
+	.menu-items li:last-child {
+		border-bottom:1px solid #FFF;
+	}
+	.menu-items li a {
+		display:block;
+		text-align:right;
+		padding-right: 30px;
+		margin-right: 0px;
+		color:#FFF;
+	}
+	.mobile-menu-icon {
+		display: block;
+	}
+	.menu {
+		margin-top:10px;
+		display: none;
+	}
+	.section-one {
+		float: none;
+		width: 94%;
+		padding: 0 3%;
+	}
+	.section-two {
+		float: right;
+		width: 94%;
+		padding: 0 3%;
+	}
+	.section-two-waste {
+		float: none;
+		width: 94%;
+		padding: 0 3%;
+	}
+	.section-one-waste {
+		float: none;
+		width: 94%;
+		padding: 0 3%;
+	}
+	.farming-text {
+		padding: 5px 15px;
+	}
+	.middle-text {
+		width: 94%;
+		float: none;
+		padding: 0 3%;
+	}
+	.far-right {
+		width: 94%;
+		float: none;
+		padding: 0 3%;
+	}
+	h1 {
+		font-size: 1em;
+		padding: 0 3%;
+	}
+}
+@media screen and (max-width: 599px) {
+	.farming-image {
+		width: 94%;
+		float: none;
+		padding: 0 3%;
+	}
+	.farming-text {
+		width:94%;
+		padding:0 3%;
+		/*text-align:center;*/
+	}
+	.farming-img-1 {
+		width: 94%;
+		float: none;
+		padding: 0 3%;
+	}
+	.farming-img-2 {
+		width: 94%;
+		float: none;
+		padding: 0 3%;
+	}
+	.farming-img-3 {
+		width: 94%;
+		float: none;
+		padding: 0 3%;
+	}
+	.farming-imge {
+		width: 93%;
+		float: none;
+		padding: 0 3%;
+	}
+	.farming-imge2 {
+		width: 93%;
+		float: none;
+		padding: 0 3%;
+	}
+	.lock-up {
+		padding:0px;
+	}
+	.text {
+		padding: 21px 0 0 0px;
+		/*text-align: center;*/
+	}
+}
+@media screen and (max-width: 489px) {
+	.logo-text a { font-size:.9em;}
+}
